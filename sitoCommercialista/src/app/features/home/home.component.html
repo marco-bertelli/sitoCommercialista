@@ -14,4 +14,8 @@
     </mdb-carousel-item>
 </mdb-carousel>
 
-  <!--appena ti passa le immagini cambiale e mettile nella cartella assets del progetto e poi cambia il percorso-->
+  <!--appena ti passa le immagini cambiale e mettile nella cartella assets del progetto e poi cambia il percorso il carosello è da rimpicciolire-->
+
+  <agm-map [latitude]="map.lat" [longitude]="map.lng" style="height: 300px">
+    <agm-marker [latitude]="map.lat" [longitude]="map.lng"></agm-marker>
+  </agm-map>
