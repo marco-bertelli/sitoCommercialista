@@ -1,8 +1,8 @@
-<app-menu></app-menu>
+
 
 <!--carosello figo (non il primo inutile)-->
-
-<mdb-carousel class="carousel slide carousel-fade" [animation]="'fade'">
+<div class="fixed-bottom">
+<mdb-carousel class="carousel slide carousel-fade" [animation]="'fade'" width="200px">
     <mdb-carousel-item>
       <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg" alt="First slide">
     </mdb-carousel-item>
@@ -13,6 +13,10 @@
       <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(9).jpg" alt="Third slide">
     </mdb-carousel-item>
 </mdb-carousel>
+</div>
+<div class="fixed-top">
+<app-menu></app-menu>
+</div>
 
   <!--appena ti passa le immagini cambiale e mettile nella cartella assets del progetto e poi cambia il percorso il carosello è da rimpicciolire-->
 <!--
