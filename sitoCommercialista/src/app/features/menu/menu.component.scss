@@ -6,10 +6,10 @@
   top: 0px;
   width: 100%;
   display: grid;
-  grid-template-columns: 1.6fr 4fr 0.6fr 0.8fr 0.8fr 1.2fr 1.4fr 3fr;
-  width: 100%;
+  grid-template-columns: 1.6fr 4fr 0.6fr 0.6fr 0.8fr 0.8fr 1.0fr 3fr;
   background: rgb(255, 255, 255);
   padding-top: 10px;
+  padding-bottom: 10px;
 }
 .elenco{
   text-decoration: none;
@@ -18,7 +18,7 @@
   cursor: pointer;
   color: rgb(53, 52, 52);
   border: 2px solid transparent;
-  margin-right: 2em;
+  margin-right: 0;
   font-size: 1.2em;
 }
 .elenco:hover{
