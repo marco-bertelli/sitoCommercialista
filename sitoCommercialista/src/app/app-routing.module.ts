@@ -9,6 +9,7 @@ const routes: Routes = [
   { path: 'contatti', loadChildren: () => import('./features/contatti/contatti.module').then(m => m.ContattiModule) },
   { path: 'links', loadChildren: () => import('./features/links/links.module').then(m => m.LinksModule) },
   { path: 'contatto', loadChildren: () => import('./features/contatto/contatto.module').then(m => m.ContattoModule) },
+  { path: 'footer', loadChildren: () => import('./features/footer/footer.module').then(m => m.FooterModule) },
 ];
 
 @NgModule({

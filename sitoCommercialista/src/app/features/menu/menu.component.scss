@@ -10,6 +10,9 @@
   background: rgb(255, 255, 255);
   padding-top: 10px;
   padding-bottom: 10px;
+  -webkit-box-shadow: 0px 1px 10px 0px rgba(168, 168, 168, 0.48);
+  -moz-box-shadow: 0px 1px 10px 0px rgba(168, 168, 168, 0.48);
+box-shadow: 0px 1px 10px 0px rgba(168, 168, 168, 0.48);
 }
 .elenco{
   text-decoration: none;
