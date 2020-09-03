@@ -8,6 +8,7 @@ const routes: Routes = [
   { path: 'lostudio', loadChildren: () => import('./features/lostudio/lostudio.module').then(m => m.LostudioModule) },
   { path: 'contatti', loadChildren: () => import('./features/contatti/contatti.module').then(m => m.ContattiModule) },
   { path: 'links', loadChildren: () => import('./features/links/links.module').then(m => m.LinksModule) },
+  { path: 'contatto', loadChildren: () => import('./features/contatto/contatto.module').then(m => m.ContattoModule) },
 ];
 
 @NgModule({
