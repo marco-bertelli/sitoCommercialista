@@ -1,0 +1,101 @@
+.wrapper {
+    background: rgb(247, 247, 247);
+    width:100%;
+    min-width: 540px;
+}
+.container {
+    padding-top: 20px;
+    padding-bottom: 16px;
+}
+
+.container-bottom {
+    background: rgb(110, 46, 46);
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 900px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+  } 
+@media screen and (max-width: 900px) {
+    .wrapper {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    }
+    .container-left {
+        max-width: 90%;
+    }
+    .container-right {
+        max-width: 100%;
+    }
+  } 
+
+.name, .surname, .gender-div, .mail, .telephone, .request {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 6px;
+    font-size: 14px;
+}   
+.container-right {
+    width: 100%;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.button, .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button {
+    margin-top: 8px;
+}
+.separator {
+    margin-top: -14px;
+}
+hr {
+    width: 80%;
+}
+.send {
+    background: rgb(41, 41, 41);
+    color: white;
+    padding: 6px 65px 6px 65px;
+    box-shadow: 1px 1px 4px rgb(192, 192, 192);
+    border-radius: 2px;
+}
+
+input {
+    background: rgb(253, 253, 253);
+    border: none;
+    box-shadow: 1px 1px 4px rgb(192, 192, 192);
+    border-radius: 2px;
+}
+.container-left {
+    width: 100%;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    display: flex;
+    justify-content: flex-end;
+    text-align: justify;
+    font-size: 14px;
+}
+.content {
+    width: 74%;
+    margin-right: 50px;
+}
+p {
+    margin-bottom: 0px;
+}
+.boldtext {
+    font-weight: bold;
+}

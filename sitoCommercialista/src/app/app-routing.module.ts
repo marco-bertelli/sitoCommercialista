@@ -10,6 +10,7 @@ const routes: Routes = [
   { path: 'links', loadChildren: () => import('./features/links/links.module').then(m => m.LinksModule) },
   { path: 'contatto', loadChildren: () => import('./features/contatto/contatto.module').then(m => m.ContattoModule) },
   { path: 'footer', loadChildren: () => import('./features/footer/footer.module').then(m => m.FooterModule) },
+  { path: 'areaclienti', loadChildren: () => import('./features/areaclienti/areaclienti.module').then(m => m.AreaclientiModule) },
 ];
 
 @NgModule({
