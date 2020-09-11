@@ -1,7 +1,121 @@
-
+<head>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
 
 <!--carosello figo (non il primo inutile)-->
-<div class="fixed-bottom">
+
+<!-- Immagine dello studio senza carosello -->
+<div class="w3-display-container w3-animate-opacity">
+  <img src="../../../assets/img/studio.jpg" style="width:100%;min-height:350px;max-height:400px;">
+</div>
+
+<!-- presentazione -->
+<div class="w3-row-padding w3-padding-64 w3-theme-l1" id="work">
+
+  <div class="w3-quarter">
+  <h2>Il nostro lavoro</h2>
+  <p>Lo Studio OBERTI, opera nel campo della consulenza aziendale, fiscale, contabile e societaria e si
+    rivolge non solo alle aziende e agli imprenditori, artigiani, commercianti, agricoli ma anche ai privati e
+    agli enti non profit come associazioni, associazioni sportive.</p>
+  </div>
+  
+  <div class="w3-quarter">
+  <div class="w3-card w3-white">
+    <img src=""  style="width:100%">
+    <div class="w3-container">
+    <h3>La Nostra passione</h3>
+    <p>La passione, la determinazione, sono i motori del lavoro ma ciò che caratterizza lo Studio è la
+      tempestività e la personalizzazione dell’assistenza. 
+      
+    </p>
+      <p>  </p>
+    </div>
+    </div>
+  </div>
+  
+  <div class="w3-quarter">
+  <div class="w3-card w3-white">
+    <img src=""  style="width:100%">
+    <div class="w3-container">
+    <h3>I Nostri Servizi</h3>
+    
+    <p>I servizi dello Studio si estendono alla assistenza al contribuente sotto tutti i profili amministrativi e
+      fiscali: tenuta della contabilità, redazione del bilancio di esercizio, redazione delle dichiarazioni dei
+      redditi, modello unico, 730, 770, modello iva, rilascio visti di conformità.</p>
+
+    </div>
+    </div>
+  </div>
+  
+  <div class="w3-quarter">
+  <div class="w3-card w3-white">
+    <img src=""  style="width:100%">
+    <div class="w3-container">
+    <h3>Iscritto All'albo</h3>
+    <p>Iscritto all’albo dei Dottori Commercialisti e degli Esperti Contabili di Bergamo al n.1084/A.
+      Iscritto al Registro dei Revisori Ufficiali dei Conti dal 1999.
+      Iscritto nell'Elenco dei Revisori dei Conti degli Enti Locali.</p>
+    
+    </div>
+    </div>
+  </div>
+  
+  </div>
+
+  <h2>Perché è importante essere iscritto all’Albo?</h2>
+
+  <p>“ Io c’ho un cuggino di mi zia che conosce uno che ha una srl che gli tiene la contabbilità per pochi euri ”</p>
+
+  <h3>Allora perché affidarsi ad un commercialista iscritto all’albo?</h3>
+
+  <ul>
+    <li>Il dottore commercialista ha l'obbligo del rispetto di un codice deontologico, e l'obbligo di stipulare
+      un'assicurazione professionale che tuteli cliente e professionista in caso di errori, ha l’obbligo della
+      formazione professionale continua.</li>
+      <li>Il rispetto del codice deontologico prevede anche il mantenimento del segreto professionale. Pertanto nessuna
+        persona esterna allo studio professionale potrà mai essere informata di quanto il commercialista viene a
+        conoscenza durante il rapporto professionale che lo lega all'azienda, a meno che non siano informazioni che è
+        necessario comunicare alle autorità competenti in base ad obblighi di legge.</li>
+      <li>Affidarsi ad un dottore commercialista appartenente all'Albo dà qualche garanzia, non proprio trascurabile.</li>
+      <li><a href="http://ricerca.commercialisti.it/RicercaIscritti">Verifica qui se chi svolge adempimenti fiscali è abilitato</a></li>
+  </ul>
+
+
+  <!-- roba figa per i tipi che ci lavorano inserisci le immagini-->
+<div class="w3-container w3-padding-64 w3-center" id="team">
+  <h2>Il Nostro studio</h2>
+  <p>capisci la nostra serità conoscendo il nostro personale</p>
+  
+  <div class="w3-row"><br>
+  
+  <div class="w3-quarter">
+    <img src="/w3images/avatar.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+    <h3>Johnny Walker</h3>
+    <p>Web Designer</p>
+  </div>
+  
+  <div class="w3-quarter">
+    <img src="/w3images/avatar.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+    <h3>Rebecca Flex</h3>
+    <p>Support</p>
+  </div>
+  
+  <div class="w3-quarter">
+    <img src="/w3images/avatar.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+    <h3>Jan Ringo</h3>
+    <p>Boss man</p>
+  </div>
+  
+  <div class="w3-quarter">
+    <img src="/w3images/avatar.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+    <h3>Kai Ringo</h3>
+    <p>Fixer</p>
+  </div>
+  
+  </div>
+  </div>
 <mdb-carousel class="carousel slide carousel-fade" [animation]="'fade'" width="200px">
     <mdb-carousel-item>
       <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg" alt="First slide">
@@ -13,10 +127,11 @@
       <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(9).jpg" alt="Third slide">
     </mdb-carousel-item>
 </mdb-carousel>
-</div>
+
 <div class="fixed-top">
 <app-menu></app-menu>
 </div>
+
 <app-footer></app-footer>
 
   <!--appena ti passa le immagini cambiale e mettile nella cartella assets del progetto e poi cambia il percorso il carosello è da rimpicciolire-->
