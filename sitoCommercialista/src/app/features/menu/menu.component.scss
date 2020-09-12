@@ -13,6 +13,7 @@
   -webkit-box-shadow: 0px 1px 10px 0px rgba(168, 168, 168, 0.48);
   -moz-box-shadow: 0px 1px 10px 0px rgba(168, 168, 168, 0.48);
   box-shadow: 0px 1px 10px 0px rgba(168, 168, 168, 0.48);
+  margin-bottom: 20px;
 }
 .elenco{
   text-decoration: none;
@@ -66,15 +67,14 @@
 }
 .title-logo {
   display: flex;
-  align-items: initial;
+  align-items: center;
   justify-content: center;
   grid-column: 1;
 }
 .title-top {
   grid-column: 2;
   display: block;
-  align-items: center;
-  justify-content: center;
+  margin-top:9px;
 }
 
 
