@@ -5,6 +5,7 @@
   position: sticky;
   top: 0px;
   width: 100%;
+  min-width: 700px;
   display: grid;
   grid-template-columns: 1.3fr 4fr 0.6fr 0.6fr 0.6fr 0.8fr 0.8fr 1.0fr 2.2fr;
   background: rgb(255, 255, 255);
@@ -15,7 +16,7 @@
   box-shadow: 0px 1px 10px 0px rgba(168, 168, 168, 0.48);
   margin-bottom: 20px;
 }
-.elenco{
+.elenco {
   text-decoration: none;
   padding: 4px;
   transition: all 0.8s;
@@ -23,10 +24,10 @@
   color: rgb(53, 52, 52);
   border: 2px solid transparent;
   margin-right: 0;
-  font-size: 1.2em;
+  font-size: 1.3em;
   float: left;
 }
-.elenco:hover{
+.elenco:hover {
   border-bottom: 2px solid rgb(112, 17, 17);
 }
 
@@ -74,7 +75,7 @@
 .title-top {
   grid-column: 2;
   display: block;
-  margin-top:9px;
+  margin-top: 8px;
 }
 
 
@@ -110,7 +111,7 @@
 
 .dropdown-content {
   display: none;
-  margin-top: 360px;
+  margin-top: 326px;
   position: absolute;
   background-color: #ffffff;
   min-width: 245px;
