@@ -6,7 +6,7 @@
   top: 0px;
   width: 100%;
   display: grid;
-  grid-template-columns: 1.1fr 4fr 0.6fr 0.6fr 0.6fr 0.8fr 0.8fr 1.0fr 2fr;
+  grid-template-columns: 1.3fr 4fr 0.6fr 0.6fr 0.6fr 0.8fr 0.8fr 1.0fr 2.2fr;
   background: rgb(255, 255, 255);
   padding-top: 10px;
   padding-bottom: 10px;
@@ -56,6 +56,27 @@
   font-size: 20px;
   padding-top: 40px;
 }
+.logo {
+  width: 140px;
+  margin-top: -19px;
+}
+.title-container {
+  display: grid;
+  grid-template-columns: 0.7fr 1fr;
+}
+.title-logo {
+  display: flex;
+  align-items: initial;
+  justify-content: center;
+  grid-column: 1;
+}
+.title-top {
+  grid-column: 2;
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
 
 
 @media screen and (max-width: 600px) {
