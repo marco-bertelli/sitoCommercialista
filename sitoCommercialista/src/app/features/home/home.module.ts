@@ -6,6 +6,7 @@ import { HomeComponent } from './home.component';
 import { CarouselModule } from 'angular-bootstrap-md';
 import { MenuModule } from '../menu/menu.module';
 import { FooterModule } from '../footer/footer.module';
+import { CookieLawModule } from 'angular2-cookie-law';
 
 
 
@@ -16,7 +17,8 @@ import { FooterModule } from '../footer/footer.module';
     HomeRoutingModule,
     CarouselModule.forRoot(),
     MenuModule,
-   FooterModule
+   FooterModule,
+   CookieLawModule
     
   ]
 })
