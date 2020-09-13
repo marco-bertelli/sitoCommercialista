@@ -83,27 +83,7 @@
 }
 
 
-@media screen and (max-width: 1050px) {
-  .menu-wrapper div:not(:first-child) {display: none;}
-  .menu-wrapper .icon {
-    float: right;
-    display: block;
-  }
-}
 
-@media screen and (max-width: 1050px) {
-    .menu-wrapper.elenco{position: relative;}
-    .menu-wrapper.elenco a.icon {
-      position: absolute;
-      right: -200px;
-      top: 0;
-    }
-    .menu-wrapper.a {
-      float: right;
-      display: block;
-      text-align: left;
-    }
-}
 
 .dropdown {
   position: relative;

@@ -9,12 +9,15 @@ import { MenuItem } from 'src/app/core/models/menu-item.interface';
 })
 export class MenuComponent implements OnInit {
 
-  
+  visibile=false;
    
   constructor(router:Router,) {​
 }
 
   ngOnInit(): void {
 
+}
+mostra(){
+  this.visibile=!this.visibile;
 }
 }

@@ -1,3 +1,5 @@
+<mat-toolbar >
+  <div fxShow="true" fxHide.lt-md="true">
   <div class="menu-wrapper">
     <div class="elenco-element elenco7">
       <a class="title" href="#">
@@ -36,40 +38,45 @@
     <div class="elenco-element">
       <a class="elenco" routerLink="/areaclienti" routerLinkActive="active">Area Clienti</a>
     </div>
+  </div>
+</div>
+<div fxShow="true" fxHide.gt-sm="true">
+  <a  (click)="mostra()">Menu</a>
+</div>
+</mat-toolbar>
+
+
+<!--navbar laterale-->
+<ng-container *ngIf="visibile==true">
+
+  <div class="elenco-element">
+    <a class="elenco"(click)="mostra()">Chiudi</a>
+  </div> 
     <div class="elenco-element">
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-      </a>
+      <a class="elenco" routerLink="/home" routerLinkActive="active">Home</a>
+    </div>
+    <div class="elenco-element">
+      <a class="elenco" routerLink="/lostudio" routerLinkActive="active">Studio</a>
+    </div>      
+    <div class="elenco-element dropdown">
+      <a class="dropbtn elenco">Servizi</a>
+      <div class="dropdown-content">
+        <a routerLink="/lavoricontabili" routerLinkActive="active">Lavori contabili, bilanci e dichiarazioni</a>
+        <a routerLink="/opsocietarie" routerLinkActive="active">Operazioni societarie</a>
+        <a routerLink="/paghecontributi" routerLinkActive="active">Paghe e contributi</a>
+        <a routerLink="/finanza" routerLinkActive="active">Contributi, finanza agevolata</a>
+        <a routerLink="/digitali" routerLinkActive="active">Servizi digitali</a>
+        <a routerLink="/altri" routerLinkActive="active">Altri servizi</a>
+      </div>
+    </div>
+    <div class="elenco-element">
+      <a class="elenco" routerLink="/contatti" routerLinkActive="active">Contatti</a>
+    </div>
+    <div class="elenco-element">
+      <a class="elenco" routerLink="/areaclienti" routerLinkActive="active">Area Clienti</a>
     </div>
     
-
+    
   
-  </div>
-  
-
-  <!-- 
-   <nav class="navbar navbar-expand-lg navbar-dark primary-color">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href="home">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/lostudio">lo studio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/servizi">Pricing</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/links">link</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
--->
+</ng-container>
   
