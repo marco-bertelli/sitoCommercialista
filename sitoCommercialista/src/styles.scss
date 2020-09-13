@@ -1,10 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 
 html, body { height: 100%; }
-* {
-    font-family: 'Open Sans', sans-serif;
-}
-
+* { font-family: 'Open Sans', sans-serif; }
 .wrapper { min-width: 700px; }
-
-
+ p, a, li { font-size: 1.15em; }
+h1 { font-size: 65px; }

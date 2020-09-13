@@ -7,7 +7,7 @@
   width: 100%;
   min-width: 700px;
   display: grid;
-  grid-template-columns: 1.3fr 4fr 0.6fr 0.6fr 0.6fr 0.8fr 0.8fr 1.0fr 2.2fr;
+  grid-template-columns: 1.4fr 4fr 0.6fr 0.6fr 0.6fr 0.8fr 0.9fr 0.6fr 2.2fr;
   background: rgb(255, 255, 255);
   padding-top: 10px;
   padding-bottom: 10px;
@@ -77,25 +77,29 @@
   display: block;
   margin-top: 8px;
 }
+.icon {
+  color: rgb(143, 143, 143);
+  font-size: 1.6em;
+}
 
 
-
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1050px) {
   .menu-wrapper div:not(:first-child) {display: none;}
   .menu-wrapper .icon {
     float: right;
     display: block;
   }
 }
-@media screen and (max-width: 600px) {
+
+@media screen and (max-width: 1050px) {
     .menu-wrapper.elenco{position: relative;}
     .menu-wrapper.elenco a.icon {
       position: absolute;
-      right: 0;
+      right: -200px;
       top: 0;
     }
     .menu-wrapper.a {
-      float: none;
+      float: right;
       display: block;
       text-align: left;
     }
@@ -127,6 +131,7 @@
   text-decoration: none;
   border-bottom: 1px solid rgb(236, 236, 236);
   display: block;
+  font-size: 1.15em;
 }
 
 .dropdown-content a:hover {background-color: rgb(236, 236, 236);}
