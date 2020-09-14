@@ -3,14 +3,17 @@
     grid-template-columns: 1.1fr 4fr 1.1fr;
     width: 100%;
     background: rgb(255, 255, 255);
-    padding-top: 20px;
-    height: 100%;
+    padding-top: 30px;
+    height: 430px;
 }
 .empty_left {
     grid-column: 1;
 }
 .content_center {
     grid-column: 2;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
 }
 .empty_right{
     grid-column: 3;
@@ -23,4 +26,15 @@ a:hover {
     color: rgb(0, 0, 0);
     border-bottom: 1px solid black;
     transition: all 0.8s;
+}
+.logo-bt {
+    margin-top: 20px;
+    height: 190px;
+}
+.logo-studio {
+    height: 190px;
+    margin-right: 20px;
+}
+h2 {
+    margin-bottom: 4px;
 }
