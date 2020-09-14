@@ -61,9 +61,17 @@
           </div>
         </div>
         <div class="privacy">
-          <input type="checkbox" formControlName="privacy">
+          <input type="checkbox" (click)="accetta()" formControlName="privacy" required>
           Dichiaro di avere letto e accettato la <a  href="https://protezionedatipersonali.it/informativa">Informativa sulla privacy</a>
         </div>
+        <!--mess errore-->
+        <div *ngIf="privacyAccettata==false"
+              class="alert alert-danger">
+          <div *ngIf="privacy.errors.required">
+            accetta la privacy
+          </div>
+        </div>
+
         <div class="button">
           <button type="submit" class="send">Invia Richiesta</button>
         </div>

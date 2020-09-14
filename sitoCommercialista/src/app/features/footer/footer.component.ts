@@ -12,6 +12,7 @@ import { HttpHeaders } from '@angular/common/http';
 export class FooterComponent implements OnInit {
 
   feedform:FormGroup;
+  privacyAccettata=false;
 
   constructor(private fb: FormBuilder,private myHttpService: MyHttpServiceService) {
     this.feedform = this.fb.group({
@@ -39,8 +40,10 @@ export class FooterComponent implements OnInit {
         );
     }
   }
-
+  get privacy() { return this.feedform.get('privacy'); }
   ngOnInit(): void {
   }
-
+accetta(){
+  this.privacyAccettata=!this.privacyAccettata;
+}
 }
