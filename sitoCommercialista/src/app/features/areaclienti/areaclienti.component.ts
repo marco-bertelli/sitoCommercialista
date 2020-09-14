@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AreaclientiComponent implements OnInit {
 
+  privacy=false;
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  accetta(){
+    this.privacy=!this.privacy;
   }
 
 }
