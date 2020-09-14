@@ -1,0 +1,31 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 1.1fr 4fr 1.1fr;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    padding-top: 20px;
+}
+.empty_left {
+    grid-column: 1;
+}
+.content_center {
+    grid-column: 2;
+}
+.empty_right{
+    grid-column: 3;
+}
+a {
+    color: rgb(112, 17, 17);
+    border-bottom: 1px solid transparent;
+}
+a:hover {
+    color: rgb(0, 0, 0);
+    border-bottom: 1px solid black;
+    transition: all 0.8s;
+}
+h2 {
+    margin-top: 30px;
+}
+li {
+    margin-top: 6px;
+}

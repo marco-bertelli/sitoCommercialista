@@ -1,0 +1,79 @@
+<div class="wrapper">
+  <div class="container">
+    <div class="container-left">
+      <div class="content">
+        <h1>Dott. Oberti Oscar</h1>
+        <p class="boldtext">Studio Commercialista</p>
+        <p>Via Antonio Gramsci 14/A</p>
+        <p>24069 Trescore Balneario (BG)</p>
+        <p><br />Telefono: +39 035 425 8565</p>
+        <p>Fax: +39 035 425 8565</p>
+        <p><br />Email: studio@commercialistaoberti.it</p>
+        <img class="logo-bt" src="../../../assets/img/logo_bottom.png">
+      </div>
+    </div>
+    <div class="container-right">
+      <div class="title">
+        <h1 id="titolo">Hai una richiesta? Contattami</h1>
+      </div>
+      <div class="separator">
+        <hr>
+      </div>
+      <form  [formGroup]="feedform" (ngSubmit)="onSubmit(feedform)" >
+        <div class="name">
+          <div class="name-left">
+            <label for="nome">Nome</label>
+          </div>
+          <div class="name-right">
+            <input type="text"  id="nome"  required formControlName="nome" class="person">
+          </div>
+        </div>  
+        <div class="surname">
+          <div class="surname-left">
+            <label for="cognome">Cognome</label>
+          </div>
+          <div class="surname-right">
+            <input type="text"  id="cognome"  required formControlName="cognome" class="person">
+          </div>
+        </div>           
+        <div class="mail">
+          <div class="mail-left">
+            <label for="email">Email</label>
+          </div>
+          <div class="mail-right">
+            <input type="email"  id="email"  required formControlName="email" class="email">
+          </div>
+        </div>
+        <div class="telephone">
+          <div class="telephone-left">
+            <label for="telefono">Telefono</label>
+          </div>
+          <div class="telephone-right">
+            <input type="text"  id="telefono"  required formControlName="telefono" class="phone">
+          </div>
+        </div>
+        <div class="request">
+          <div class="request-left">
+            <label for="commenti">Richiesta</label>
+          </div>
+          <div class="request-right">
+            <textarea id="commenti" name="w3review" required formControlName="commenti" rows="4" cols="50"></textarea>
+          </div>
+        </div>
+        <div class="privacy">
+          <input type="checkbox" formControlName="privacy">
+          Dichiaro di avere letto e accettato la <a  href="https://protezionedatipersonali.it/informativa">Informativa sulla privacy</a>
+        </div>
+        <div class="button">
+          <button type="submit" class="send">Invia Richiesta</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <div class="container-bottom">
+    <div class="copyright">
+      <p>© 2020 Oberti Oscar - Dottore Commercialista Revisore ufficiale dei conti - Trescore Balneario - P.IVA 01010101010</p>
+    </div>
+  </div>
+</div>
+

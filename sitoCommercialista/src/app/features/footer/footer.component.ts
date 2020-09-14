@@ -1,15 +1,15 @@
 import { Component, OnInit } from '@angular/core';
-import { FormGroup, FormBuilder } from '@angular/forms';
+import { FormGroup, FormBuilder,Validator, Validators, FormControl } from '@angular/forms';
 import { MyHttpServiceService } from 'src/app/services/my-http-service.service';
 import { HttpHeaders } from '@angular/common/http';
 
 
 @Component({
-  selector: 'app-contatto',
-  templateUrl: './contatto.component.html',
-  styleUrls: ['./contatto.component.scss']
+  selector: 'app-footer',
+  templateUrl: './footer.component.html',
+  styleUrls: ['./footer.component.scss']
 })
-export class ContattoComponent implements OnInit {
+export class FooterComponent implements OnInit {
 
   feedform:FormGroup;
 
@@ -21,6 +21,7 @@ export class ContattoComponent implements OnInit {
       email:'',
       telefono:'',
       commenti:'',
+      privacy: new FormControl('', Validators.required),
     });
    }
 
