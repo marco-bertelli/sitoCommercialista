@@ -17,11 +17,11 @@
             <p>Se l’utente sospettasse o avesse notizia che terze persone siano entrati in possesso dei suoi dati di accesso, deve informare tempestivamente lo Studio che provvederà a cambiare i dati di accesso.</p>
         
         <p><br /><br />
-            <input type="checkbox">
+            <input type="checkbox" (click)="accetta()">
             Dichiaro di avere letto e accettato la <a class="link" href="#">Informativa sulla privacy e le Condizioni generali d’uso</a>.
         </p>
         
-        <a href="https://serviziweb.datev.it/wa">
+        <a href="https://serviziweb.datev.it/wa" *ngIf="privacy==true">
             <button type="submit" class="send">Entra nell'area clienti</button>
         </a>
     </div>
