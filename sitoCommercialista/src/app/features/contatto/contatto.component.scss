@@ -1,1 +1,86 @@
 
+
+#titolo {
+    margin: 20px auto;
+    font-size: 1rem;
+}
+
+
+
+
+
+// .optSesso {
+//     background-color: rgba(255, 255, 255, 0.3);
+//     color: black;
+//     height: 40px;
+//     font-weight: bold;
+// }
+
+
+input {
+    border: 2;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-bottom: 1px solid white;
+    color: white;
+    width: 33%;
+    height: 45px;
+    font-weight: bold;
+    text-indent: 50px;
+    background-repeat: no-repeat;
+    background-position: 5px 12px;
+}
+
+
+
+// button {
+//     border-radius: 10rem;
+//     width: 33%;
+//     height: 2rem;
+//     background-color: white;
+//     cursor: pointer;
+//     margin-bottom: 20px;
+// }
+
+
+//bottone
+button {
+    //min-width: 260px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    position: relative;
+    outline: none;
+    text-decoration: none;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 50px;
+    width: 33%;
+    background-color: #ffffff;
+    border: 1px solid rgba(22, 76, 167, 0.6);
+}
+
+#altro {
+    width: 25%;
+}
+
+button:hover {
+    animation: rotate 0.7s ease-in-out both;
+}
+
+button:hover span {
+    animation: storm 0.7s ease-in-out both;
+    animation-delay: 0.06s;
+}
+
+button:active {
+    width: 33.5%;
+    height: 52px;
+    margin-top: 3px;
+}
+
+
+
+
