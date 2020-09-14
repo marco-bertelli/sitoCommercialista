@@ -65,14 +65,9 @@
           Dichiaro di avere letto e accettato la <a  href="../../../assets/documents/Privacy.docx">Informativa sulla privacy</a>
         </div>
         <!--mess errore-->
-        <div *ngIf="privacyAccettata==false"
-              class="alert alert-danger">
-          <div *ngIf="privacy.errors.required">
-            accetta la privacy
-          </div>
-        </div>
+        
 
-        <div class="button">
+        <div class="button" *ngIf="privacyAccettata==true">
           <button type="submit" class="send">Invia Richiesta</button>
         </div>
       </form>
