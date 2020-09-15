@@ -30,7 +30,7 @@ export class FooterComponent implements OnInit {
     if (contactForm.valid) {
       const email = contactForm.value;
       const headers = new HttpHeaders({ 'Content-Type': 'application/json' });
-      this.myHttpService.invia('https://formspree.io/mwkngpoo',
+      this.myHttpService.invia('https://formspree.io/xnqoavye',
         { name: email.name, replyto: email.email, message: email.messages },
         { 'headers': headers }).subscribe(
           response => {
