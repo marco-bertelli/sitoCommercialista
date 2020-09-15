@@ -41,8 +41,17 @@
     </div>
   </div>
 </div>
-<div fxShow="true" fxHide.gt-sm="true">
-  <a  (click)="mostra()">Menu</a>
+<div class="menu-2" fxShow="true" fxHide.gt-sm="true">
+  <a class="btnmenu" (click)="mostra()">Menu</a>
+  <img class="logo2" src="../../../assets/img/logo.png">
+  <div class="title-top">
+    <div class="title-top-1">
+      <span class="title1">DOTT. COMMERCIALISTA</span>
+    </div>
+    <div class="title-top-2">
+      <span class="title2">OBERTI OSCAR</span>
+    </div> 
+  </div>
 </div>
 </mat-toolbar>
 
@@ -59,7 +68,7 @@
  
     <div class="elenco-element dropdown">
       <a class="dropbtn elenco">Servizi</a>
-      <div class="dropdown-content">
+      <div class="dropdown-content dropdown2">
         <a routerLink="/lavoricontabili" routerLinkActive="active">Lavori contabili, bilanci e dichiarazioni</a>
         <a routerLink="/opsocietarie" routerLinkActive="active">Operazioni societarie</a>
         <a routerLink="/paghecontributi" routerLinkActive="active">Paghe e contributi</a>
