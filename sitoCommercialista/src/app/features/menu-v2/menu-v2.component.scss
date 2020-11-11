@@ -1,10 +1,22 @@
 .size{
     img{
-        height: 70px;
-        width: 150px;
+        margin-top: -30px;
+        margin-bottom: -6px;
+        margin-left: 40px;
+        height: 120px;
+        width: 218px;
     }
 }
-a{
-    color: black;
-    
+.nav-link {
+    background-color: white !important;
+    margin-left: 6px;
+    color: rgb(68, 68, 68) !important;
+}
+.nav-link:hover {
+    background-color: rgb(246, 246, 246) !important;
+    margin-left: 6px;
+    border-radius: 4px;
+    color: rgb(88, 27, 27) !important;
+    padding-left: 26px;
+    padding-right: 26px
 }

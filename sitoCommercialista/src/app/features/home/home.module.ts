@@ -20,8 +20,8 @@ import { CookieLawModule } from 'angular2-cookie-law';
     CarouselModule.forRoot(),
     MDBBootstrapModule.forRoot(),
     MenuModule,
-   FooterModule,
-   CookieLawModule
+    FooterModule,
+    CookieLawModule
     
   ]
 })
