@@ -1,10 +1,11 @@
 .size{
     img{
-        margin-top: -30px;
+        margin-top: -7px;
         margin-bottom: -6px;
-        margin-left: 80px;
-        height: 120px;
-        width: 218px;
+        margin-left: 280px;
+        margin-right: 160px;
+        height: 100px;
+        width: 372px;
     }
 }
 .nav-link {
@@ -16,10 +17,21 @@
     background-color: rgb(246, 246, 246) !important;
     margin-left: 6px;
     border-radius: 4px;
-    color: rgb(88, 27, 27) !important;
+    color: rgb(0, 0, 0) !important;
     padding-left: 26px;
     padding-right: 26px
 }
-.navbar {
+.navbar .navbar-expand-lg .navbar-light .white {
     min-width: 700px;
+    position: sticky;
 }
+
+@media screen and (max-width: 1000px) {
+    .size{
+        img {
+            margin-left: 0px;
+        }
+      
+  
+    }
+  }
