@@ -7,6 +7,7 @@ import { ContattiComponent } from './contatti.component';
 import { FooterModule } from '../footer/footer.module';
 
 
+
 @NgModule({
   declarations: [ContattiComponent],
   imports: [
@@ -14,6 +15,7 @@ import { FooterModule } from '../footer/footer.module';
     ContattiRoutingModule,
     MenuModule,
     FooterModule
+    
   ]
 })
 export class ContattiModule { }

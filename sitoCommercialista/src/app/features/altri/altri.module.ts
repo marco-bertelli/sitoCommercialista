@@ -7,6 +7,7 @@ import { MenuModule } from '../menu/menu.module';
 import { FooterModule } from '../footer/footer.module';
 
 
+
 @NgModule({
   declarations: [AltriComponent],
   imports: [
@@ -14,6 +15,7 @@ import { FooterModule } from '../footer/footer.module';
     AltriRoutingModule,
     MenuModule,
     FooterModule
+    
   ]
 })
 export class AltriModule { }

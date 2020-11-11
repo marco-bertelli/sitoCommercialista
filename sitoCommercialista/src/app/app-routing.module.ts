@@ -4,7 +4,7 @@ import { Routes, RouterModule } from '@angular/router';
 
 const routes: Routes = [
   { path: 'home', loadChildren: () => import('./features/home/home.module').then(m => m.HomeModule) },
-  { path: '', redirectTo: '/home', pathMatch: 'full' },
+  { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: 'contatti', loadChildren: () => import('./features/contatti/contatti.module').then(m => m.ContattiModule) },
   { path: 'footer', loadChildren: () => import('./features/footer/footer.module').then(m => m.FooterModule) },
   { path: 'areaclienti', loadChildren: () => import('./features/areaclienti/areaclienti.module').then(m => m.AreaclientiModule) },

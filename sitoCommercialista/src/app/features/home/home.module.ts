@@ -7,13 +7,13 @@ import { CarouselModule, MDBBootstrapModule } from 'angular-bootstrap-md';
 import { MenuModule } from '../menu/menu.module';
 import { FooterModule } from '../footer/footer.module';
 import { CookieLawModule } from 'angular2-cookie-law';
-import { MenuV2Component } from '../menu-v2/menu-v2.component';
+
 
 
 
 
 @NgModule({
-  declarations: [HomeComponent,MenuV2Component],
+  declarations: [HomeComponent],
   imports: [
     CommonModule,
     HomeRoutingModule,
