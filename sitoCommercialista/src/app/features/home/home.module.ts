@@ -20,8 +20,8 @@ import { MenuV2Component } from '../menu-v2/menu-v2.component';
     CarouselModule.forRoot(),
     MDBBootstrapModule.forRoot(),
     MenuModule,
-   FooterModule,
-   CookieLawModule
+    FooterModule,
+    CookieLawModule
     
   ]
 })
