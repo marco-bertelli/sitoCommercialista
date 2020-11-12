@@ -8,6 +8,10 @@
         width: 372px;
     }
 }
+
+navbar{
+    min-width: 700px;
+}
 .nav-link {
     background-color: white !important;
     margin-left: 6px;
@@ -30,6 +34,8 @@
     .size{
         img {
             margin-left: 0px;
+            width: 70%;
+            height: 70%;
         }
       
   
