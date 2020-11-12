@@ -137,5 +137,8 @@
       }
     }
   },
-  "defaultProject": "sitoCommercialista"
+  "defaultProject": "sitoCommercialista",
+  "cli": {
+    "analytics": "4ce0f7f4-4bda-4227-8519-f28ab1f107cf"
+  }
 }
