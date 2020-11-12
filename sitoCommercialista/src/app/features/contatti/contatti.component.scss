@@ -4,7 +4,7 @@
     width: 100%;
     background: rgb(255, 255, 255);
     padding-top: 50px;
-    height: 430px;
+    // height: 430px;
 }
 .empty_left {
     grid-column: 1;
@@ -37,4 +37,13 @@ a:hover {
 }
 h2 {
     margin-bottom: 4px;
+}
+
+@media screen and (max-width: 800px) {
+    .content_center {
+        grid-column: 2;
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
 }

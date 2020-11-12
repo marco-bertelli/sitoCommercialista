@@ -49,6 +49,20 @@
         text-align: center;
     }
   } 
+  @media screen and (max-width: 700px) {
+    .container {
+        width: 95%;
+        padding: 0px;
+        margin: 0px;
+    }
+    .content {
+        text-align: center;
+    }
+    .container-right {
+        text-align: center;
+    }
+  } 
+
 
 .name, .surname, .gender-div, .mail, .telephone, .request {
     display: grid;
