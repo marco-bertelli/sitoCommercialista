@@ -22,16 +22,15 @@
     padding-right: 26px
 }
 .navbar .navbar-expand-lg .navbar-light .white {
-    min-width: 700px;
+    // min-width: 700px;
     position: sticky;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1500px) {
     .size{
         img {
             margin-left: 0px;
         }
-      
-  
-    }
-  }
+      }
+}
+
