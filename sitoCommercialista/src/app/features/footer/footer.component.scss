@@ -1,5 +1,6 @@
 * {
     font-size: 1em;
+    max-width: auto;
 }
 .wrapper {
     background: rgb(247, 247, 247);
@@ -68,8 +69,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
-    margin-left: 120px;
-    margin-right: 120px;
+    margin-left: 2%;
+    margin-right: 2%;
     margin-top: 6px;
     font-size: 14px;
 }   
