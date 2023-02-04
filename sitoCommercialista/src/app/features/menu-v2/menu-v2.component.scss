@@ -1,18 +1,21 @@
-.size{
+@import url('https://allfont.net/allfont.css?fonts=book-antiqua');
+
+.brand {
+  display: flex;
+  margin-right: 160px;
+  .logo{
     img{
-        margin-top: -7px;
-        margin-bottom: -6px;
-        margin-left: 280px;
-        margin-right: 160px;
-        height: 100px;
-        width: 372px;
+      margin: 2px 10px 2px 300px;
+      height: 80px;
     }
+  }
 }
 
 navbar{
     min-width: 700px;
 }
 .nav-link {
+    font-weight: bold;
     background-color: white !important;
     margin-left: 6px;
     color: rgb(68, 68, 68) !important;
@@ -29,22 +32,37 @@ navbar{
     // min-width: 700px;
     position: sticky;
 }
+.dropdown-menu {
+  padding: 10px;
+  border-radius: 8px;
+}
+.dropdown-item {
+  border-radius: 8px;
+  font-size: 1.2rem !important;
+  font-weight: bold !important;
+  &.active {
+    color: #ffffff;
+    background-color: rgba(2, 80, 210, 0.75);
+  }
+}
 
-@media screen and (max-width: 1500px) {
-    .size{
-        img {
-            margin-left: 0px;
-            width: 70%;
-            height: 70%;
-        }
+@media screen and (max-width: 1300px) {
+  .brand {
+    .logo{
+      img {
+        margin-left: 0px;
       }
+    }
+  }
 }
 
 @media screen and (max-width: 628px) {
-    .size{
-        img {
-            height: 88px;
-            width: 328px;
-        }
+  .brand {
+    margin-right: 0;
+    .logo{
+      img {
+        margin-left: 0px;
       }
+    }
+  }
 }

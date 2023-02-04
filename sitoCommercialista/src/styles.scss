@@ -1,12 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
-* { font-family: 'Open Sans', sans-serif; }
- p, a, li { font-size: 1.15em; }
+html, body {
+  height: 100%;
+}
 
- @media screen and (max-width: 800px) {
-    .text {
-        display: grid !important;
-        grid-template-columns: 0.2fr 4fr 0.2fr !important;
-    }
+* {
+  color: #5A5A5A;
+  font-family: Garamond, serif;
+  line-height: 1.8rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Garamond, serif !important;
+  font-weight: bold !important;
+}
+
+p, a, li {
+  font-size: 1.3rem;
+}
+
+@media screen and (max-width: 800px) {
+  .text {
+    display: grid !important;
+    grid-template-columns: 0.2fr 4fr 0.2fr !important;
+  }
 }

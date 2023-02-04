@@ -1,48 +1,37 @@
-<!--Navbar-->
 <mdb-navbar mdbWavesEffect SideClass="navbar navbar-expand-lg navbar-light white" [containerInside]="false">
 
-    <!-- Navbar brand -->
-    <mdb-navbar-brand><a class="navbar-brand" href="/home"><div class="size"><img class="logo" src="../../../assets/img/logo-label.png"></div></a></mdb-navbar-brand>
-  
-    <!-- Collapsible content -->
-    <links>
-  
-      <!-- Links -->
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a routerLink="/home" routerLinkActive="active" class="nav-link " >Home<span class="sr-only" ></span></a>
-          
-        </li>
-       
-  
-        <!-- Dropdown -->
-        <li class="nav-item dropdown" dropdown>
-          <a dropdownToggle  type="button" class="nav-link dropdown-toggle " >
-            Servizi<span class="caret"></span></a>
-          <div *dropdownMenu class="dropdown-menu dropdown dropdown-primary" role="menu">
-            <a routerLink="/lavoricontabili" routerLinkActive="active" class="dropdown-item "  >Lavori contabili, bilanci e dichiarazioni</a>
-            <a routerLink="/opsocietarie" routerLinkActive="active" class="dropdown-item " >Operazioni societarie</a>
-            <a routerLink="/paghecontributi" routerLinkActive="active" class="dropdown-item "  >Paghe e contributi</a>
-            <a routerLink="/finanza" routerLinkActive="active" class="dropdown-item "  >Contributi, finanza agevolata</a>
-            <a routerLink="/digitali" routerLinkActive="active" class="dropdown-item "  >Servizi digitali</a>
-            <a routerLink="/altri" routerLinkActive="active"  class="dropdown-item  " >Altri servizi</a>
-            
-          </div>
-        </li>
-        <li class="nav-item">
-            <a routerLink="/contatti" routerLinkActive="active" class="nav-link " >Contatti</a>
-          </li>
-          <li class="nav-item">
-            <a  routerLink="/areaclienti" routerLinkActive="active" class="nav-link " >Area Clienti</a>
-          </li>
-  
-      </ul>
-      <!-- Links -->
-  
-      <ul class="navbar-nav ml-auto nav-flex-icons">
-       
-        
-      </ul>
-    </links>
-    <!-- Collapsible content -->
-  </mdb-navbar>
+  <mdb-navbar-brand>
+    <a class="navbar-brand" href="/#/home">
+      <div class="brand">
+        <div class="logo"><img class="logo" src="../../../assets/img/logo-label.png"></div>
+      </div>
+    </a>
+  </mdb-navbar-brand>
+
+  <links>
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a routerLink="/home" routerLinkActive="active" class="nav-link ">Home<span class="sr-only"></span></a>
+      </li>
+      <li class="nav-item dropdown" dropdown>
+        <a dropdownToggle type="button" class="nav-link dropdown-toggle ">
+          Servizi<span class="caret"></span></a>
+        <div *dropdownMenu class="dropdown-menu dropdown dropdown-primary" role="menu">
+          <a routerLink="/lavoricontabili" routerLinkActive="active" class="dropdown-item ">Lavori contabili, bilanci e
+            dichiarazioni</a>
+          <a routerLink="/opsocietarie" routerLinkActive="active" class="dropdown-item ">Operazioni societarie</a>
+          <a routerLink="/paghecontributi" routerLinkActive="active" class="dropdown-item ">Paghe e contributi</a>
+          <a routerLink="/finanza" routerLinkActive="active" class="dropdown-item ">Contributi, finanza agevolata</a>
+          <a routerLink="/digitali" routerLinkActive="active" class="dropdown-item ">Servizi digitali</a>
+          <a routerLink="/altri" routerLinkActive="active" class="dropdown-item  ">Altri servizi</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a routerLink="/contatti" routerLinkActive="active" class="nav-link ">Contatti</a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="/areaclienti" routerLinkActive="active" class="nav-link ">Area Clienti</a>
+      </li>
+    </ul>
+  </links>
+</mdb-navbar>

@@ -4,10 +4,9 @@
       <div class="content">
         <h1>Dott. Oberti Oscar</h1>
         <p class="boldtext">Studio Commercialista</p>
-        <p>Via Antonio Gramsci 14/A</p>
+        <p>Via Paglia 19/d</p>
         <p>24069 Trescore Balneario (BG)</p>
         <p><br />Telefono: +39 035 425 8565</p>
-        <p>Fax: +39 035 425 8565</p>
         <p><br />Email: studio@commercialistaoberti.it</p>
         <img class="logo-bt" src="../../../assets/img/logo_bottom.png">
       </div>
@@ -19,7 +18,7 @@
       <div class="separator">
         <hr>
       </div>
-      <form  [formGroup]="feedform" (ngSubmit)="onSubmit(feedform)" >
+      <form  [formGroup]="feedform" (ngSubmit)="onSubmit(feedform)">
         <div class="name">
           <div class="name-left">
             <label for="nome">Nome</label>
@@ -27,7 +26,7 @@
           <div class="name-right">
             <input type="text"  id="nome"  required formControlName="nome" class="person">
           </div>
-        </div>  
+        </div>
         <div class="surname">
           <div class="surname-left">
             <label for="cognome">Cognome</label>
@@ -35,7 +34,7 @@
           <div class="surname-right">
             <input type="text"  id="cognome"  required formControlName="cognome" class="person">
           </div>
-        </div>           
+        </div>
         <div class="mail">
           <div class="mail-left">
             <label for="email">Email</label>
@@ -63,11 +62,10 @@
         <div class="privacy">
           <div class="priv">
             <input type="checkbox" (click)="accetta()" formControlName="privacy" required>
-          Dichiaro di avere letto e accettato la <a  href="../../../assets/documents/Privacy.pdf">Informativa sulla privacy</a>
+            Dichiaro di aver letto e accettato la<a  href="../../../assets/documents/Privacy.pdf"> <b> Informativa sulla privacy</b></a>
           </div>
         </div>
-        <!--mess errore-->
-        
+
 
         <div class="button" *ngIf="privacyAccettata==true">
           <button type="submit" class="send">Invia Richiesta</button>
@@ -77,7 +75,7 @@
   </div>
   <div class="container-bottom">
     <div class="copyright">
-      <p>© 2020 Oberti Oscar - Dottore Commercialista Revisore ufficiale dei conti - Trescore Balneario - P.IVA 02405270169</p>
+      <p>© 2020 Oberti Oscar - Dottore Commercialista Revisore ufficiale dei conti - Trescore Balneario - P.IVA 02405270162</p>
     </div>
   </div>
 </div>
